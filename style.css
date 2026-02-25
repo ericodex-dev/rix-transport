@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #0d1b2a;
+    color: white;
+    padding: 60px 20px;
+}
+
+header .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1b263b;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+header .btn:hover {
+    background-color: #415a77;
+}
+
+h2 {
+    color: #0d1b2a;
+    margin-top: 40px;
+}
+
+.services .cards, .vehicles .vehicle-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.services .card, .vehicles .vehicle {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.vehicles .vehicle img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact {
+    padding: 40px 20px;
+    background-color: #e0e0e0;
+}
